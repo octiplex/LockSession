@@ -20,7 +20,7 @@
 
 + (NSURL*)URLForLockSessionAgentExecutable
 {
-    return [[NSBundle bundleWithURL:[self URLForLockSessionAgentExecutable]] executableURL];
+    return [[NSBundle bundleWithURL:[self URLForLockSessionAgentApp]] executableURL];
 }
 
 @end
