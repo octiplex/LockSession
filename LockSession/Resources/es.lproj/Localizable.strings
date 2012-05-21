@@ -1,0 +1,24 @@
+﻿/* 
+   Localizable.strings
+   LockSession
+
+   Created by Thibaut on 7/3/09.
+   Copyright 2009 Thibaut Jarosz. All rights reserved.
+ */
+"start" = "Inicio";
+"locksession_started" = "LockSession ejecutada.";
+
+"stop" = "Terminar";
+"locksession_stopped" = "LockSession terminado.";
+
+"remove" = "Desinstalar";
+"locksession_not_installed" = "LockSession no està instalado.";
+
+"reinstall" = "Cambiar";
+"locksession_not_properly" = "LockSession no está instalado correctamente.";
+
+"install" = "Instalar";
+"locksession_installed" = "LockSession instalado.";
+
+"installation" = "Instalación";
+"shortcut" = "Atajos";

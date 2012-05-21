@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+		BF1AEC5110A505AE00721201 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF54BF390FFD83550076C76E /* MainMenu.xib */; };
+		BF1AEDCF10A50AD400721201 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1AEDCE10A50AD400721201 /* ShortcutRecorder.framework */; };
+		BF1AEEAD10A50BA200721201 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BF1AEDCE10A50AD400721201 /* ShortcutRecorder.framework */; };
+		BF1E77E71557C60800B059C5 /* NSUserDefaults+LockSession.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1E77E51557C60800B059C5 /* NSUserDefaults+LockSession.h */; };
+		BF1E77E81557C60800B059C5 /* NSUserDefaults+LockSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E77E61557C60800B059C5 /* NSUserDefaults+LockSession.m */; };
+		BF1E781E1557FDD900B059C5 /* NSDictionary+LockSession.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1E781C1557FDD900B059C5 /* NSDictionary+LockSession.h */; };
+		BF1E781F1557FDD900B059C5 /* NSDictionary+LockSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E781D1557FDD900B059C5 /* NSDictionary+LockSession.m */; };
+		BF1E78221558024A00B059C5 /* NSURL+LockSession.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1E78201558024A00B059C5 /* NSURL+LockSession.h */; };
+		BF1E78231558024A00B059C5 /* NSURL+LockSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E78211558024A00B059C5 /* NSURL+LockSession.m */; };
+		BF1E783915582DD300B059C5 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BF1E783815582DD300B059C5 /* Icon.icns */; };
+		BF1E783B15582E0D00B059C5 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BF1E783A15582E0D00B059C5 /* Icon.icns */; };
+		BF1E783E155830A000B059C5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1E783C155830A000B059C5 /* Icon.png */; };
+		BF1E783F155830A000B059C5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1E783D155830A000B059C5 /* Icon@2x.png */; };
+		BF1E78431558355B00B059C5 /* about.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = BF1E78421558355B00B059C5 /* about.rtfd */; };
+		BF23C8EE15546314002D66AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF23C8EC15546314002D66AF /* Localizable.strings */; };
+		BF23C8F615546612002D66AF /* OXLSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BF23C8F415546612002D66AF /* OXLSConstants.h */; };
+		BF23C8F715546612002D66AF /* OXLSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BF23C8F515546612002D66AF /* OXLSConstants.m */; };
+		BF23C90A15546A8A002D66AF /* OXLSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BF23C8F515546612002D66AF /* OXLSConstants.m */; };
+		BF2A0C2310A7AD5A00935361 /* OXLSPreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C043013D9D8C01CA16C8 /* OXLSPreferencePane.xib */; };
+		BF2A0C2510A7AD7A00935361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167EFE841241C02AAC07 /* InfoPlist.strings */; };
+		BF54BE1C0FFD81280076C76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		BF54BE1D0FFD81280076C76E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C167FFE841241C02AAC07 /* AppKit.framework */; };
+		BF54BF060FFD82820076C76E /* OXLSPreferencePane.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* OXLSPreferencePane.h */; };
+		BF54BF070FFD82820076C76E /* OXLSPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* OXLSPreferencePane.m */; };
+		BF54BF080FFD82820076C76E /* LockSession_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* LockSession_Prefix.pch */; };
+		BF54BF1A0FFD830C0076C76E /* LockSessionAgent.app in Resources */ = {isa = PBXBuildFile; fileRef = BF54BF120FFD82C60076C76E /* LockSessionAgent.app */; };
+		BF54BF1C0FFD83240076C76E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF54BE190FFD81240076C76E /* Carbon.framework */; };
+		BF54BF1D0FFD83240076C76E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		BF54BF1F0FFD83240076C76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		BF54BF200FFD83240076C76E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C167FFE841241C02AAC07 /* AppKit.framework */; };
+		BF54BF3B0FFD83550076C76E /* OXLSAgentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF54BF310FFD83550076C76E /* OXLSAgentController.m */; };
+		BF54BF3C0FFD83550076C76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF54BF340FFD83550076C76E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2A9D27155420DB00CB10D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF54BF110FFD82C60076C76E;
+			remoteInfo = LockSessionDaemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF1AEEAE10A50BC000721201 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF1AEEAD10A50BA200721201 /* ShortcutRecorder.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		089C167EFE841241C02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32DBCFA20370C41700C91783 /* LockSession_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockSession_Prefix.pch; sourceTree = "<group>"; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* LockSession.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockSession.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1AEDCE10A50AD400721201 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = "<group>"; };
+		BF1E77E51557C60800B059C5 /* NSUserDefaults+LockSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSUserDefaults+LockSession.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BF1E77E61557C60800B059C5 /* NSUserDefaults+LockSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSUserDefaults+LockSession.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF1E781C1557FDD900B059C5 /* NSDictionary+LockSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSDictionary+LockSession.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BF1E781D1557FDD900B059C5 /* NSDictionary+LockSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSDictionary+LockSession.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF1E78201558024A00B059C5 /* NSURL+LockSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSURL+LockSession.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BF1E78211558024A00B059C5 /* NSURL+LockSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSURL+LockSession.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF1E783815582DD300B059C5 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		BF1E783A15582E0D00B059C5 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		BF1E783C155830A000B059C5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BF1E783D155830A000B059C5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BF1E78421558355B00B059C5 /* about.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = about.rtfd; sourceTree = "<group>"; };
+		BF23C8ED15546314002D66AF /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF23C8EF1554631E002D66AF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF23C8F115546327002D66AF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF23C8F415546612002D66AF /* OXLSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OXLSConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BF23C8F515546612002D66AF /* OXLSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OXLSConstants.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF54BE190FFD81240076C76E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		BF54BF120FFD82C60076C76E /* LockSessionAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockSessionAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF54BF300FFD83550076C76E /* OXLSAgentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OXLSAgentController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BF54BF310FFD83550076C76E /* OXLSAgentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OXLSAgentController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF54BF330FFD83550076C76E /* LockSession_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockSession_Prefix.pch; sourceTree = "<group>"; };
+		BF54BF340FFD83550076C76E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF54BF390FFD83550076C76E /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		BF54BF3A0FFD83550076C76E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		F506C03C013D9D7901CA16C8 /* OXLSPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OXLSPreferencePane.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F506C03D013D9D7901CA16C8 /* OXLSPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OXLSPreferencePane.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F506C043013D9D8C01CA16C8 /* OXLSPreferencePane.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OXLSPreferencePane.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				BF54BE1C0FFD81280076C76E /* Foundation.framework in Frameworks */,
+				BF54BE1D0FFD81280076C76E /* AppKit.framework in Frameworks */,
+				BF1AEDCF10A50AD400721201 /* ShortcutRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF54BF100FFD82C60076C76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54BF1C0FFD83240076C76E /* Carbon.framework in Frameworks */,
+				BF54BF1D0FFD83240076C76E /* Cocoa.framework in Frameworks */,
+				BF54BF1F0FFD83240076C76E /* Foundation.framework in Frameworks */,
+				BF54BF200FFD83240076C76E /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* LockSession */ = {
+			isa = PBXGroup;
+			children = (
+				BF23C8F315546571002D66AF /* Shared */,
+				BF54BF2E0FFD83550076C76E /* LockSessionAgent */,
+				BF54BEE60FFD816A0076C76E /* LockSession */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = LockSession;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E78421558355B00B059C5 /* about.rtfd */,
+				BF23C8EC15546314002D66AF /* Localizable.strings */,
+				BF54BF120FFD82C60076C76E /* LockSessionAgent.app */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167EFE841241C02AAC07 /* InfoPlist.strings */,
+				BF1E783A15582E0D00B059C5 /* Icon.icns */,
+				BF1E783C155830A000B059C5 /* Icon.png */,
+				BF1E783D155830A000B059C5 /* Icon@2x.png */,
+				F506C043013D9D8C01CA16C8 /* OXLSPreferencePane.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F506C03C013D9D7901CA16C8 /* OXLSPreferencePane.h */,
+				F506C03D013D9D7901CA16C8 /* OXLSPreferencePane.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF54BE190FFD81240076C76E /* Carbon.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+				BF1AEDCE10A50AD400721201 /* ShortcutRecorder.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* LockSession.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA20370C41700C91783 /* LockSession_Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BF1E77E41557C5DE00B059C5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E77E51557C60800B059C5 /* NSUserDefaults+LockSession.h */,
+				BF1E77E61557C60800B059C5 /* NSUserDefaults+LockSession.m */,
+				BF1E781C1557FDD900B059C5 /* NSDictionary+LockSession.h */,
+				BF1E781D1557FDD900B059C5 /* NSDictionary+LockSession.m */,
+				BF1E78201558024A00B059C5 /* NSURL+LockSession.h */,
+				BF1E78211558024A00B059C5 /* NSURL+LockSession.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BF23C8F315546571002D66AF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BF23C8F415546612002D66AF /* OXLSConstants.h */,
+				BF23C8F515546612002D66AF /* OXLSConstants.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BF54BEE60FFD816A0076C76E /* LockSession */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E77E41557C5DE00B059C5 /* Categories */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+			);
+			path = LockSession;
+			sourceTree = "<group>";
+		};
+		BF54BF2E0FFD83550076C76E /* LockSessionAgent */ = {
+			isa = PBXGroup;
+			children = (
+				BF54BF2F0FFD83550076C76E /* Classes */,
+				BF54BF320FFD83550076C76E /* Other Sources */,
+				BF54BF350FFD83550076C76E /* Resources */,
+			);
+			path = LockSessionAgent;
+			sourceTree = "<group>";
+		};
+		BF54BF2F0FFD83550076C76E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF54BF300FFD83550076C76E /* OXLSAgentController.h */,
+				BF54BF310FFD83550076C76E /* OXLSAgentController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF54BF320FFD83550076C76E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF54BF330FFD83550076C76E /* LockSession_Prefix.pch */,
+				BF54BF340FFD83550076C76E /* main.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BF54BF350FFD83550076C76E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E783815582DD300B059C5 /* Icon.icns */,
+				BF54BF390FFD83550076C76E /* MainMenu.xib */,
+				BF54BF3A0FFD83550076C76E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54BF060FFD82820076C76E /* OXLSPreferencePane.h in Headers */,
+				BF54BF080FFD82820076C76E /* LockSession_Prefix.pch in Headers */,
+				BF23C8F615546612002D66AF /* OXLSConstants.h in Headers */,
+				BF1E77E71557C60800B059C5 /* NSUserDefaults+LockSession.h in Headers */,
+				BF1E781E1557FDD900B059C5 /* NSDictionary+LockSession.h in Headers */,
+				BF1E78221558024A00B059C5 /* NSURL+LockSession.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* LockSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "LockSession" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+				BF1AEEAE10A50BC000721201 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2A9D28155420DB00CB10D9 /* PBXTargetDependency */,
+			);
+			name = LockSession;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = LockSession;
+			productReference = 8D202CF80486D31800D8A456 /* LockSession.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BF54BF110FFD82C60076C76E /* LockSessionAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF54BF170FFD82C70076C76E /* Build configuration list for PBXNativeTarget "LockSessionAgent" */;
+			buildPhases = (
+				BF54BF0E0FFD82C60076C76E /* Resources */,
+				BF54BF0F0FFD82C60076C76E /* Sources */,
+				BF54BF100FFD82C60076C76E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockSessionAgent;
+			productName = LockSessionDaemon;
+			productReference = BF54BF120FFD82C60076C76E /* LockSessionAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "LockSession" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				es,
+				English,
+				fr,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* LockSession */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* LockSession */,
+				BF54BF110FFD82C60076C76E /* LockSessionAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A0C2510A7AD7A00935361 /* InfoPlist.strings in Resources */,
+				BF2A0C2310A7AD5A00935361 /* OXLSPreferencePane.xib in Resources */,
+				BF54BF1A0FFD830C0076C76E /* LockSessionAgent.app in Resources */,
+				BF23C8EE15546314002D66AF /* Localizable.strings in Resources */,
+				BF1E783B15582E0D00B059C5 /* Icon.icns in Resources */,
+				BF1E783E155830A000B059C5 /* Icon.png in Resources */,
+				BF1E783F155830A000B059C5 /* Icon@2x.png in Resources */,
+				BF1E78431558355B00B059C5 /* about.rtfd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF54BF0E0FFD82C60076C76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1AEC5110A505AE00721201 /* MainMenu.xib in Resources */,
+				BF1E783915582DD300B059C5 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54BF070FFD82820076C76E /* OXLSPreferencePane.m in Sources */,
+				BF23C8F715546612002D66AF /* OXLSConstants.m in Sources */,
+				BF1E77E81557C60800B059C5 /* NSUserDefaults+LockSession.m in Sources */,
+				BF1E781F1557FDD900B059C5 /* NSDictionary+LockSession.m in Sources */,
+				BF1E78231558024A00B059C5 /* NSURL+LockSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF54BF0F0FFD82C60076C76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54BF3B0FFD83550076C76E /* OXLSAgentController.m in Sources */,
+				BF54BF3C0FFD83550076C76E /* main.m in Sources */,
+				BF23C90A15546A8A002D66AF /* OXLSConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2A9D28155420DB00CB10D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF54BF110FFD82C60076C76E /* LockSessionAgent */;
+			targetProxy = BF2A9D27155420DB00CB10D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF23C8EC15546314002D66AF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF23C8ED15546314002D66AF /* English */,
+				BF23C8EF1554631E002D66AF /* es */,
+				BF23C8F115546327002D66AF /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockSession/Other Sources/LockSession_Prefix.pch";
+				INFOPLIST_FILE = LockSession/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = LockSession;
+				REZ_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockSession/Other Sources/LockSession_Prefix.pch";
+				INFOPLIST_FILE = LockSession/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = LockSession;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF54BF150FFD82C70076C76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockSessionAgent/Other Sources/LockSession_Prefix.pch";
+				INFOPLIST_FILE = LockSessionAgent/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LockSessionAgent;
+			};
+			name = Debug;
+		};
+		BF54BF160FFD82C70076C76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = LockSessionAgent/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LockSessionAgent;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "LockSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "LockSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF54BF170FFD82C70076C76E /* Build configuration list for PBXNativeTarget "LockSessionAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF54BF150FFD82C70076C76E /* Debug */,
+				BF54BF160FFD82C70076C76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
