@@ -8,7 +8,7 @@ LockSession is a Mac OS X preference pane that allows you to configure a keyboar
 
 ## Installation
 
-This plugin requires Mac OS X 10.5 and higher.
+This application requires Mac OS X 10.5 and higher.
 
  * Download [LockSession][directDownload].
  * Uncompress the downloaded file (if needed).
