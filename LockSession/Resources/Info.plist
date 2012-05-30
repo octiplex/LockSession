@@ -15,9 +15,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>CFBundleVersion</key>
-	<string>2.0</string>
+	<string>2.1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Octiplex</string>
 	<key>NSMainNibFile</key>
 	<string>OXLSPreferencePane</string>
 	<key>NSPrefPaneIconFile</key>
@@ -26,7 +28,5 @@
 	<string>LockSession</string>
 	<key>NSPrincipalClass</key>
 	<string>OXLSPreferencePane</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Octiplex</string>
 </dict>
 </plist>
