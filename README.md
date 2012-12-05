@@ -31,4 +31,4 @@ This work contains compiled version of the Shortcut Recorder Framework. The sour
 
 [BSDLicense]: http://www.opensource.org/licenses/bsd-license.php
 [shortcutrecorder]: http://code.google.com/p/shortcutrecorder/
-[directDownload]: https://github.com/downloads/octiplex/LockSession/LockSession-2.0.zip
+[directDownload]: https://github.com/downloads/octiplex/LockSession/LockSession-2.1.zip
